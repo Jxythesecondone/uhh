@@ -11,4 +11,8 @@ public class S extends Applet {
 		float l=(x*y*z/100);
 		si=String.valueOf(l);
 	}
+	public void pain(Graphics g) {
+		g.drawString("Simple interest: ", 20, 30);
+		g.drawString(si, 120, 30);
+	}
 }
