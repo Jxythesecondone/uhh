@@ -22,9 +22,6 @@ public class AreaUsingMethodOverloading {
 		System.out.print("Enter the length and height: ");
 		double L=scanner.nextDouble();
 		double h=scanner.nextDouble();
-
-		System.out.println(area(a));
-		System.out.println(area(l,b));
 		System.out.println(area(L,h));
 	}
 }
